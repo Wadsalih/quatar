@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./css/mainStyle.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#slider"> التعليقات </a></li>
+        <li><a href="#mainBody"> حول </a></li>
+        <li><a href="#photo">معرض الصور</a></li>
+        <li><a href="#hero">الصفحة الرئيسية</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero" id="hero">
+      <h1>كاس العالم في قطر</h1>
+      <p class="tagline">المقام في 2022</p>
+    </section>
+
+    <section class="mainBody" id="mainBody">
+      <div class="container_1">
+        <div class="row">
+          <video src="./videos/World .mp4 " autoplay muted loop></video>
+        </div>
+        <div class="row">
+          <p>
+            هي البطولة الثانية والعشرون من بطولة كأس العالم لفرق الرجال الوطنية،
+            التي تقام كل أربع سنوات والتي تتنافس عليها المنتخبات الوطنية الأعضاء
+            في الاتحاد الدولي لكرة القدم. تستضيفها قطر في الفترة من 20 نوفمبر
+            إلى 18 ديسمبر 2022. وهذه أول نسخة من كأس العالم تقام في الوطن العربي
+            والثانية التي تقام في آسيا بعد نسخة 2002 التي لُعبت في كوريا
+            الجنوبية واليابان. فرنسا هي حاملة اللقب، بعد فوزها على كرواتيا 4–2
+            في نهائي كأس العالم 2018. هذه النسخة هي السابعة والأخيرة من نسخ كأس
+            العالم التي يشارك فيها 32 منتخبا (بدأ ذلك منذ كأس العالم 1998). في
+            عام 2018، درس الاتحاد الدولي لكرة القدم إمكانية توسيع البطولة لتشمل
+            48 منتخبا والمقرر عقدها في 2026 وتطبيقها في نسخة 2022، ومع ذلك في 22
+            مايو 2019، أُلغيت هذه الفكرة بسبب العديد من الصعوبات، أهمها أن لجنة
+            التنظيم خططت مبدئيًا لاستيعاب 32 وليس 48 فريقًا، حيث سيشارك 48
+            منتخبًا في نسخة 2026 المقرر تنظيمها في الولايات المتحدة، المكسيك
+            وكندا. بسبب حرارة الصيف الشديدة في قطر، تقام نهائيات كأس العالم هذه
+            المرة من أواخر نوفمبر إلى منتصف ديسمبر، مما يجعلها أول بطولة لا تقام
+            في مايو أو يونيو أو يوليو. تُلعب البطولة في فترة زمنية أقل من 29
+            يومًا.
+          </p>
+          <button class="btn-c">Read More</button>
+        </div>
+      </div>
+    </section>
+    <marquee> :كأس العالم القطر 2022 </marquee>
+    <!-- Photo Gallery -->
+    <section class="photo-gallery" id="photo">
+      <h1>معرض الصور</h1>
+      <div class="container">
+        <img
+        src="ima.jpg"
+          alt="img for Qater" />
+        <img
+        src="ima2.jpg"
+          alt="img for Qater" />
+          <img
+          src="ima6.jpg"
+          alt="img for Qater" />
+          <img
+          src="ima8.jpg"
+          alt="img for Qater" />
+          <img
+          src="ima9.jpg"
+          alt="img for Qater" />
+          <img
+          src="ima3.jpg"
+          alt="img for Qater" />
+          <img
+          src="images.jpg"
+          alt="img for Qater" />
+          <img
+          src="ima10.jpg"
+          alt="img for Qater" />
+          <img
+          src="ima11.jpg"
+          alt="img for Qater" />
+        
+      </div>
+    </section>
+
+    <div class="slider" id="slider">
+      <form>
+        <div class="item-form">
+          <span> Email</span>
+          <input type="text" placeholder="Email" class="email-i" required />
+        </div>
+        <div class="gender">
+          <span> Gender</span>
+          <br />
+          <input type="radio" name="gender" />ذكر
+          <input type="radio" name="gender" />أنثى
+        </div>
+
+        <div class="item-form">
+          <span> National</span>
+          <br />
+          <select name="national" required class="national">
+            <option selected disabled></option>
+            <option value="sudan">السودان</option>
+            <option value="qatar">قطر</option>
+            <option value="">السعودية</option>
+            <option value="">الاردن</option>
+            <option value="">الجزائر</option>
+            <option value="">المغرب</option>
+            <option value="">تونس</option>
+            <option value="">لبنان</option>
+          </select>
+        </div>
+        <div class="item-form">
+          <span>Command</span>
+          <input
+            type="text"
+            placeholder="Commend !"
+            class="command-i"
+            required />
+        </div>
+        <div class="item-form">
+          <button class="btn-c btn-fo">Send</button>
+        </div>
+      </form>
+    </div>
+    <section class="footer">
+      <div class="share">
+        <a href="#" class="btn">facebook</a>
+        <a href="#" class="btn">twitter</a>
+        <a href="#" class="btn">instagram</a>
+        <a href="#" class="btn">pinterest</a>
+        <a href="#" class="btn">linkedin</a>
+      </div>
+
+      <h1 class="credit">
+        created by <span> Abodall</span> | all rights reserved!
+      </h1>
+    </section>
+  </body>
+</html>
